@@ -14,9 +14,15 @@ import argparse
 def main(parameter1, parameter2):
     x = hello()
     print(x)
+    y = goodbye()
+    print(y)
 
 def hello():
     print("Hello, world!")
+    
+    
+def goodbye():
+    print("Goodbye!"
 
 def parse_args(args_list):
     """Takes a list of strings from the command prompt and passes them through as arguments
