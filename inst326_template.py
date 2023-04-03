@@ -22,7 +22,7 @@ def hello():
     
     
 def goodbye():
-    print("Goodbye!"
+    print("Goodbye!")
 
 def parse_args(args_list):
     """Takes a list of strings from the command prompt and passes them through as arguments
