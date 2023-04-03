@@ -16,6 +16,7 @@ def main(parameter1, parameter2):
     print(x)
     y = goodbye()
     print(y)
+    print(extra_pull_command)
 
 def hello():
     print("Hello, world!")
@@ -24,6 +25,9 @@ def hello():
 def goodbye():
     print("Goodbye!")
 
+def extra_pull_command():
+    x = 2
+    print(x)
 def parse_args(args_list):
     """Takes a list of strings from the command prompt and passes them through as arguments
     
